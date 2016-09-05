@@ -1,12 +1,12 @@
 /* reference: http://codepen.io/MattiaAstorino/pen/VYWxXy */
-#act{
-	position: relative;
-	width: 100%;
+
+#act {
+	text-align: center;
 }
 
 #act .card {
-	margin: 8px;
-	position: absolute;
+	position: relative;
+	margin: 30px;
 	border-radius: 2px;
 	overflow: hidden;
 	background-color: #fafafa;

@@ -18,18 +18,11 @@ $(function(){
 			W = $this.width(),
 			H = $this.height();
 		
-		var num = parseInt( (W-40) / 350 ),
-			left = (W-40-num*350)/2,
-			top = 0;
+		var num = parseInt( (W-40) / 350 );
 		
-		var eachTop = new Array();
-		
-		for (var i = 0, len = data.length, tmpL=left+40; i < len; i++, tmpL+=350){
-			if( tmpL + 350 >= W ) tmpL = left+40, top += 580;
+		for (var i = 0, len = data.length; i < len; i++){
 			var $card = $('<div class="card"></div>').appendTo($this);
 			$card.attr("id", "act"+i);
-			eachTop["act"+i] = top;
-			$card.css({"top":top+"px", "left":tmpL+"px"});	 
 			
 			var out_img = $('<div class="outside__image"></div>').appendTo($card);
 			var img = $('<div class="card__image"></div>').appendTo(out_img);
@@ -45,7 +38,6 @@ $(function(){
 			var content = $('<p class="card__text">'+data[i].content+'</p>').appendTo($card);
 			var title = $('<div class="card__subtitle">'+data[i].title+'</div>').appendTo($card);
 		}
-		$("#act").height( (top+580) + "px");
 		
 		return $this;
 	};
