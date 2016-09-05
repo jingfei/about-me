@@ -229,7 +229,7 @@ header {
   background-image: url('../img/cover.jpg');
   background-repeat: none;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
