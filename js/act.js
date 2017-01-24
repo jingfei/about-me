@@ -1,6 +1,6 @@
 $(function(){
 	$("#act").arrangeActGrid([
-		{ img: "./img/act/01.jpg", head: "Sep. 2015 - present", title: "iGem, National Cheng Kung Univ.", content: "Join the team of iGem, and I am in the IT group. iGem is an international competition of synthetic biology, it combines the knowledge of biology, engineering, and computer science." },
+		{ img: "./img/act/01.jpg", head: "Sep. 2015 - Oct. 2016", title: "iGem, National Cheng Kung Univ.", content: "Join the team of iGem, and I am in the IT group. iGem is an international competition of synthetic biology, it combines the knowledge of biology, engineering, and computer science." },
 		{ img: "./img/act/02.jpg", head:  "Sep. 2014 - Aug. 2015", title: "Future Elites, College of Engineering", content: "Became a member of Future Elites class (College of Engineering), we had leadership and English training course. Besides, I was the organizer of our social care activity, <a href='http://prezi.com/ddzo7ifyzsaz/?utm_campaign=share&utm_medium=copy&rc=ex0share' target='_blank'>Care Week</a>." },
 		{ img: "./img/act/03.jpg", head:  "Jul. 2015 - Aug. 2015", title: "Future Elites, College of Engineering", content: "During summer vacation, we joined leadership workshop in Indiana University Purdue University Fort Wayne, and visiting the companies, schools in Chicago, Boston and New York." },
 		{ img: "./img/act/04.jpg", head: "Feb. 2014 - Aug. 2015", title: "Tainan National Girl's Senior High",  content: "Taught C language in high school's club" },

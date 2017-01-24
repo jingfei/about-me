@@ -1,5 +1,7 @@
 $(function(){
 	$("#works .da-thumbs").arrangeWorksGrid([
+    { img: "./img/works/igem_wiki.png", title: "iGem NCKU wiki", link: "http://2016.igem.org/Team:NCKU_Tainan", content: "Present the work of our project, U-KNOW." },
+    { img: "./img/works/igemncku.png", title: "iGem NCKU official website", link: "http://igem.ncku.edu.tw", content: "iGem NCKU Team official website" },
 		{ img: "./img/works/01.jpg", title: "Sudoku Online Judge System", link: "http://judge.imslab.org/", content: "Check the correctness of the program online, and offer the battle mode for competition." },
 		{ img: "./img/works/02.jpg", title: "NCKU CSIE Class Borrowing System", link: "http://www.csie.ncku.edu.tw/Class2014/", content: "The interface for students' ID card, class and equipment borrowing for NCKU CSIE." },
 		{ img: "./img/works/03.jpg", title: "Microsoft Student Partners admission website", link: "http://jingfei.github.io/msp9th/", content: "The admission website for 9th Microsoft Student Partners, and it is cooperated with the group of design." },
